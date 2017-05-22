@@ -1,6 +1,6 @@
-FROM softsam/android:latest
+FROM otiteca/android:latest
 
-MAINTAINER softsam
+MAINTAINER otiteca
 
 # Install dependencies for emulator
 RUN echo y | android update sdk --no-ui --all -t `android list sdk --all|grep "SDK Platform Android 4.4.2, API 19"|awk -F'[^0-9]*' '{print $2}'` && \

@@ -1,6 +1,6 @@
-FROM softsam/adb:latest
+FROM otiteca/adb:latest
 
-MAINTAINER softsam
+MAINTAINER otiteca
 
 # Install all dependencies
 RUN apt-get update && \
